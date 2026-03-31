@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Read(//usr/local/**)",
+      "Bash(/usr/local/bin/node --version)",
+      "Bash(command -v node)",
+      "Read(//opt/homebrew/**)",
+      "Read(//Users/mishamuchhala/.nvm/versions/**)",
+      "Bash(echo $PATH)",
+      "Bash(/opt/pkg/env/active/bin/node --version)",
+      "Bash(/opt/pkg/env/active/bin/npm --version)",
+      "Bash(echo $SHELL)",
+      "Bash(source ~/.zshrc)",
+      "Bash(/bin/zsh -i -c \"which node\")",
+      "Bash(curl -fsSL https://fnm.vercel.app/install)",
+      "Bash(bash)",
+      "Read(//private/tmp/**)",
+      "Bash(tar -xzf node.tar.gz)",
+      "Bash(export PATH=\"/tmp/node-v20.18.0-darwin-arm64/bin:$PATH\")",
+      "Bash(npm --version)",
+      "Bash(npm install:*)",
+      "Bash(timeout 15 npm run dev)",
+      "Bash(mkdir -p /Users/mishamuchhala/.local/bin)",
+      "Bash(cp /tmp/node-v20.18.0-darwin-arm64/bin/node /Users/mishamuchhala/.local/bin/node)",
+      "Bash(/Users/mishamuchhala/.local/bin/node --version)",
+      "Bash(npm run:*)",
+      "Bash(gh auth:*)"
+    ]
+  }
+}
